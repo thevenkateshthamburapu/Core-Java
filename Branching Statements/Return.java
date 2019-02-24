@@ -11,7 +11,7 @@ public class Return {
 	
 	public static void main(String[] args) {
 		
-		Return_04 r=new Return_04();
+		Return r=new Return();
 		
 		System.out.println(r.sum(10, 20));
 		//we can 
