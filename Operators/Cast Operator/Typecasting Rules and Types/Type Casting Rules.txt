@@ -1,0 +1,30 @@
+Definition :
+==========
+The Process of converting one data type value into another data type value is known as "Type Casting" or "Cast Operation".
+
+TypeCasting Rules:
+==================
+1. Casting an object from a sub class to a super class doesn’t require an explicit cast.
+2. Casting an object from a super class to a sub class requires an explicit cast.
+3. The compiler will not allow casts to unrelated types.
+4. Even when the code compiles without issue, an exception may be thrown at run time if the object being cast is not actually an instance of that class. This will result in the run time exception ClassCastException.
+
+Upcasting: Converting a subclass type to a superclass type is known as up casting.
+
+Downcasting: Converting a superclass type to a subclass type is known as downcasting.
+
+Widening:
+========
+Byte —> Short —> Int —> Long — > Float —> Double 
+1. Widening, also known as upcasting is a conversion that takes place in the following situations -
+2. Widening is taking place when a small primitive type value is automatically accommodated in a bigger/wider primitive data type.
+3. Widening is taking place when a reference variable of a subclass is automatically accommodated in the reference variable of its superclass.
+
+Narrowing:
+=========
+Double —> Float —> Long —> Int —> Short —> Byte 
+1. Narrowing also known as downcasting/casting is a conversion that takes place in such situations -
+2. Narrowing a wider/bigger primitive type value to a smaller primitive type value.
+3. Narrowing the superclass reference to the reference of its subclass, during inheritance.
+
+
