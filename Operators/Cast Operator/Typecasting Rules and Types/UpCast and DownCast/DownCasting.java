@@ -28,7 +28,7 @@ public class DownCasting {
 		SuperClass SuperClass=subClass;
 		//SubClass subClass=(SubClass) superClass;//R.Error->SuperClass cannot be cast to SubClass
 		SubClass SubClass=(SubClass) SuperClass;
-		subClass.show();
+		subClass.show();// it call sub class
 		subClass.subMethod();
 		subClass.superMethod();//we can access super class methods from sub class
 		
